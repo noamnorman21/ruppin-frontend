@@ -5,16 +5,18 @@
 תכונת `display` ב-CSS קובעת כיצד אלמנט מוצג בדף ואיך הוא משפיע על סביבתו.
 
 ### ערכים נפוצים:
+<ul dir="rtl"> 
+<li><strong>`none`</strong> – האלמנט מוסתר לחלוטין ולא תופס מקום בדף.</li>
+<li><strong>block</strong> – האלמנט מוצג כבלוק (כמו <code>&lt;div&gt;</code> או <code>&lt;p&gt;</code>), תופס את כל רוחב השורה.</li>
+<li><strong>`inline`</strong> – האלמנט מופיע בתוך השורה (כמו <code>&lt;span&gt;</code>), ללא שליטה על גובה ורוחב.</li>
+<li><strong>`inline-block`</strong> – כמו `inline`, אך ניתן לשלוט על גובה ורוחב.</li>
+<li><strong>`flex`</strong> – האלמנט הופך למכולת Flexbox שמסדרת את התוכן שלה לפי כללי Flex.</li>
+<li><strong>`inline-flex`</strong> – כמו `flex`, אך האלמנט עצמו מתנהג כמו `inline`.</li>
+<li><strong>`grid`</strong> – האלמנט הופך למכולת Grid עם חלוקת שורות ועמודות.</li>
+<li><strong>`inline-grid`</strong> – כמו `grid`, אך האלמנט עצמו מתנהג כמו `inline`.</li>
+<li><strong>`table`, `table-row`, `table-cell`</strong> – הופכים את האלמנט למרכיב טבלה בהתאם.</li>
+</ul>
 
-- **`none`** – האלמנט מוסתר לחלוטין ולא תופס מקום בדף.
-- **`block`** – האלמנט מוצג כבלוק (כמו `<div>` או `<p>`), תופס את כל רוחב השורה.
-- **`inline`** – האלמנט מופיע בתוך השורה (כמו `<span>`), ללא שליטה על גובה ורוחב.
-- **`inline-block`** – כמו `inline`, אך ניתן לשלוט על גובה ורוחב.
-- **`flex`** – האלמנט הופך למכולת Flexbox שמסדרת את התוכן שלה לפי כללי Flex.
-- **`inline-flex`** – כמו `flex`, אך האלמנט עצמו מתנהג כמו `inline`.
-- **`grid`** – האלמנט הופך למכולת Grid עם חלוקת שורות ועמודות.
-- **`inline-grid`** – כמו `grid`, אך האלמנט עצמו מתנהג כמו `inline`.
-- **`table`, `table-row`, `table-cell`** – הופכים את האלמנט למרכיב טבלה בהתאם.
 
 ### דוגמאות שימוש
 
