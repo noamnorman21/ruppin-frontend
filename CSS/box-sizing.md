@@ -6,8 +6,10 @@
 
 ### ההבדל בין`content-box` לבין `border-box`
 
-- **`content-box`** (ברירת מחדל): הרוחב והגובה כוללים **רק את התוכן**, ללא border, padding או margin.
-- **`border-box`**: הרוחב והגובה כוללים **גם את התוכן, ה-padding וה-border**, אך לא את ה-margin.
+<ul dir="rtl"> 
+  <li><strong>`content-box` (ברירת מחדל): </strong> הרוחב והגובה כוללים **רק את התוכן**, ללא border, padding או margin.</li>
+  <li><strong>`border-box`: </strong> הרוחב והגובה כוללים **גם את התוכן, ה-padding וה-border**, אך לא את ה-margin.</li> 
+</ul>  
 
 ### למה להשתמש ב-`border-box`?
 
